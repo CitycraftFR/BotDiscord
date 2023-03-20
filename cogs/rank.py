@@ -60,7 +60,7 @@ class Rank(commands.Cog):
             self.data[guild_id][user_id] = {"level": 0, "xp": 0}
             self.save_data()
 
-        self.data[guild_id][user_id]["xp"] += (random.randint(1, 10) * config.multiplicator) 
+        self.data[guild_id][user_id]["xp"] += (random.randint(1, 5) * config.multiplicator) 
         self.save_data()
 
         xp = self.data[guild_id][user_id]["xp"]
