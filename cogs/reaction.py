@@ -16,11 +16,11 @@ class reaction(commands.Cog):
         
         self.ROLE_MESSAGE_ID = config.roleMSG  # message ID goes here
         self.EMOJI_TO_ROLE = {
-            disnake.PartialEmoji(name="📢"): config.annoncement,  
-            disnake.PartialEmoji(name="⬆️"): config.patchNote,
-            disnake.PartialEmoji(name="📻"): config.inactiveChat,
-            disnake.PartialEmoji(name="🎉"): config.givewayReact,
-            disnake.PartialEmoji(name="📱"): config.notifReact,
+            disnake.PartialEmoji(name="📢"): config.News,  
+            disnake.PartialEmoji(name="🤫"): config.Spoil,
+            disnake.PartialEmoji(name="📱"): config.Reseau,
+            disnake.PartialEmoji(name="🎉"): config.Give,
+            disnake.PartialEmoji(name="🤝"): config.Parte,
         }
 
 
